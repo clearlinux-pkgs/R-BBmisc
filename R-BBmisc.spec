@@ -4,7 +4,7 @@
 #
 Name     : R-BBmisc
 Version  : 1.11
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/BBmisc_1.11.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/BBmisc_1.11.tar.gz
 Summary  : Miscellaneous Helper Functions for B. Bischl
@@ -14,6 +14,7 @@ Requires: R-BBmisc-lib = %{version}-%{release}
 Requires: R-checkmate
 BuildRequires : R-checkmate
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 some other guys, mainly for package development.
@@ -34,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569348848
+export SOURCE_DATE_EPOCH=1571800524
 
 %install
-export SOURCE_DATE_EPOCH=1569348848
+export SOURCE_DATE_EPOCH=1571800524
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
