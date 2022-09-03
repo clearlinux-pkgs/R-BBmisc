@@ -4,7 +4,7 @@
 #
 Name     : R-BBmisc
 Version  : 1.12
-Release  : 37
+Release  : 38
 URL      : https://cran.r-project.org/src/contrib/BBmisc_1.12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/BBmisc_1.12.tar.gz
 Summary  : Miscellaneous Helper Functions for B. Bischl
