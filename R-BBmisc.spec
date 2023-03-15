@@ -4,7 +4,7 @@
 #
 Name     : R-BBmisc
 Version  : 1.13
-Release  : 40
+Release  : 41
 URL      : https://cran.r-project.org/src/contrib/BBmisc_1.13.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/BBmisc_1.13.tar.gz
 Summary  : Miscellaneous Helper Functions for B. Bischl
